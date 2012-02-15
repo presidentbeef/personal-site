@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>
+          Justin S. Collins
+        </title>
+        <!-- remember to change paths to your sites css files! -->
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/jquery.github_badge.js"></script>
+                
+        <link rel="stylesheet" href="style/screen.css" type="text/css" media="screen, projection"
+        />
+        <!--[if lt IE 8]>
+            <link rel="stylesheet" href="style/ie.css" type="text/css" media="screen, projection"
+            />
+        <![endif]-->
+        <link rel="stylesheet" href="style/jquery.github_badge.css?v=1" />
+        <style>
+          body {
+            color: #FFF6EE;
+          }
+
+          div.pages {
+            background-color: #787E7F;
+            border-right: 1px #49597E solid;
+            min-height: 600px;
+          }
+
+          div.page {
+            padding: 10px;
+            display: none
+          }
+
+          div.pages a {
+            color: #FFBD80;
+            text-decoration: none;
+          }
+
+          div.pages a:hover {
+            color: #FFDEBF;
+            text-decoration: underline;
+          }
+
+          div.pages ul {
+            margin-left: 10px;
+            list-style: none;
+          }
+
+          div#navbar {
+            margin-left: 200px;
+            color: #FFF8F1;
+          }
+          div#home {
+            background-color: #787E7F;
+            display: block;
+          }
+          div.sidebar {
+          }
+          div#github_badge {
+            background-color: white;
+            color: black;
+          }
+          ul#nav {
+            list-style-type: none;
+          }
+          ul#nav li {
+            float: left;
+            margin-left: 10px;
+            padding: 5px 8px 1px 8px;
+            border-right: 1px #49597E solid;
+            background: #787E7F;
+            cursor: pointer;
+          }
+
+          ul#nav li:hover {
+            background: #BB776D;
+          }
+          
+          .notit {
+            border-bottom: #929B9C 1px solid;
+          }
+
+          .it {
+            border-bottom: #787E7F 1px solid;
+          }
+        </style>
+        <script>
+          pages = ["#about", "#home", "#code", "#sites", "#papers", "#music", "#social"]
+
+          $(document).ready(function(){
+            $.each(pages, function(i, page) {
+              $("li" + page).click(function() {
+                if($("div" + page).is(":hidden")) {
+                  $("div.page:visible").fadeOut(100, function () { $("div" + page).fadeIn()});
+
+                  $("li.it").attr("class", "notit");
+                  $("li" + page).attr("class", "it");
+                }
+              })
+            })
+
+            $("#github_badge").GitHubBadge({
+              login: "presidentbeef",
+              image_path: "images/gh/",
+              repo_count: "10"
+            });
+          });
+        </script>
+    </head>
+    
+    <body>
+        <div id="sortable" class="container">
+            <div class="r1 first last span-24">
+                <p>
+                    Header
+                </p>
+            </div>
+            <div class="clearDiv">
+            </div>
+            <div class="r4 first last span-24">
+              <div id="navbar">
+                <ul id="nav">
+                  <li id="home" class="it">Home</li>
+                  <li id="code" class="notit">Code</li>
+                  <li id="sites" class="notit">Sites</li>
+                  <li id="papers" class="notit">Papers</li>
+                  <li id="social" class="notit">Social</li>
+                  <li id="music" class="notit">Music</li>
+                  <li id="about" class="notit">About</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearDiv">
+            </div>
+            <div class="span-5 r2 first sidebar">
+              <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+              <script>
+                new TWTR.Widget({
+                  version: 2,
+                  type: 'profile',
+                  rpp: 3,
+                  interval: 30000,
+                  width: 185,
+                  height: 252,
+                  theme: {
+                    shell: {
+                      background: '#787e7f',
+                      color: '#ffffff'
+                    },
+                    tweets: {
+                      background: '#ffffff',
+                      color: '#787e7f',
+                      links: '#436d73'
+                    }
+                  },
+                  features: {
+                    scrollbar: false,
+                    loop: true,
+                    live: true,
+                    behavior: 'all'
+                  }
+                }).render().setUser('presidentbeef').start();
+              </script>
+            </div>
+            <div class="r2 span-14 pages">
+              <div id="home" class="page">
+                Home
+              </div>
+              <div id="code" class="page">
+                  <div id="github_badge"></div> 
+              </div>
+              <div id="papers" class="page">
+                Published work:
+                <ul>
+                  <li>Justin Collins and Rajive Bagrodia. "<a href="http://cs.ucla.edu/collins/~documents/Justin_Collins-Rajive_Bagrodia-MOBIQUITOUS2010.pdf">A Quantitative Comparison of Communication Paradigms for MANETs.</a>" In <i>Proc. of the 7th International ICST Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services</i> (<a href="http://www.mobiquitous.org/2010/">MobiQuitous 2010</a>).
+                  </li>
+                  <br>
+                  <li>Justin Collins and Rajive Bagrodia. "<a href="http://cs.ucla.edu/collins/~documents/Justin_Collins-WICON08.pdf">Programming in Mobile Ad Hoc Networks.</a>" In <i>Proceedings of the Fourth International Wireless Internet Conference</i> (<a href="http://wicon.org/2008">WICON 2008</a>).<br/>
+                  Citations: <a href="http://scholar.google.com/scholar?cites=8393034125401973454">5</a>
+                  </li>
+                </ul>
+                <i>Undergraduate</i>
+                <ul>
+                  <li>
+                  D. Joslin and J. Collins. "<a href="http://cs.ucla.edu/~collins/documents/Joslin_Collins-Greedy_Transformations_of_Search_Spaces.pdf">Greedy transformation of evolutionary algorithm search spaces for scheduling problems.</a>" <i>IEEE Congress on Evolutionary Computation, 2007</i> (CEC 2007).<br/>
+                  Citations: <a href="http://scholar.google.com/scholar?cites=2827018643315973851">2</a>
+                  </li>
+                  <br>
+                  <li>J. Collins and D. Joslin. "<a href="http://cs.ucla.edu/~collins/documents/Collins_Joslin-GECCO06-abstract.pdf">Improving genetic algorithm performance with intelligent mappings from chromosomes to solutions.</a>" In <i>Proc. of the 8th Annual Conference on Genetic and Evolutionary Computation (GECCO '06)</i> (Seattle, Washington, USA, July 08 - 12, 2006).<br>
+                  <a href="http://cs.ucla.edu/~collins/documents/Collins_Joslin-GECCO06-poster.pdf">Poster</a><br/>
+                  Citations: <a href="http://scholar.google.com/scholar?cites=7381693708815848700">1</a>
+                  </li>
+
+                </ul>
+              </div>
+              <div id="sites" class="page">
+                Some websites I have put together:
+
+                <ul>
+                  <li><a href="http://cs.ucla.edu/~collins">My Academic Page</a></li>
+                  <li><a href="http://brakemanscanner.org/">Brakeman Scanner</a></li>
+                  <li><a href="http://brat-lang.org/">Brat Language</a></li>
+                  <li><a href="http://try.brat-lang.org/">Try Brat</a></li>
+                  <li><a href="http://fll.presidentbeef.com/">Fledgling Languages List</a></li>
+                  <li><a href="http://nekotutorial.org/">Neko Tutorial</a></li>
+                  <li><a href="http://www.kingdomsofahln.com/">Kingdoms of Ahln</a></li>
+                </ul>
+              </div>
+              <div id="social" class="page">
+                Places where you can find me:
+
+                <ul>
+                  <li><a href="https://twitter.com/presidentbeef">Twitter</a></li>
+                  <li><a href="https://github.com/presidentbeef">GitHub</a></li>
+                  <li><a href="http://www.linkedin.com/in/justinscollins">LinkedIn</a></li>
+                  <li><a href="https://plus.google.com/117208141877998032981/posts">Google+</a></li>
+                  <li><a href="http://coderwall.com/presidentbeef">CoderWall</a></li>
+                  <li><a href="http://calendaraboutnothing.com/~presidentbeef">Calendar About Nothing</a></li>
+                </ul>
+              </div>
+              <div id="music" class="page">
+                Music
+              </div>
+              <div id="about" class="page">
+                About
+              </div>
+            </div>
+            <div class="r2 last span-5">
+                <p>
+                </p>
+            </div>
+            <div class="clearDiv">
+            </div>
+            <div class="r3 first last span-24 footer">
+                <p>
+                    Footer
+                </p>
+            </div>
+            <div class="clearDiv">
+            </div>
+        </div>
+    </body>
+
+</html>
