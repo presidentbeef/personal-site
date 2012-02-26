@@ -75,7 +75,8 @@
           }
 
           ul#nav li:hover {
-            background: #BB776D;
+            margin-top: -7px;
+            height: 25px;
           }
           
           .notit {
@@ -85,9 +86,14 @@
           .it {
             border-bottom: #787E7F 1px solid;
           }
+
+          div#github_badge a:hover {
+            color: blue;
+          }
+
         </style>
         <script>
-          pages = ["#about", "#home", "#code", "#sites", "#papers", "#music", "#social"]
+          pages = ["#about", "#home", "#code", "#sites", "#papers", "#social"]
 
           $(document).ready(function(){
             $.each(pages, function(i, page) {
@@ -147,12 +153,12 @@
                   theme: {
                     shell: {
                       background: '#787e7f',
-                      color: '#ffffff'
+                      color: '#FFF6EE'
                     },
                     tweets: {
-                      background: '#ffffff',
-                      color: '#787e7f',
-                      links: '#436d73'
+                      background: '#787e7f',
+                      color: '#FFF6EE',
+                      links: '#FFBD80'
                     }
                   },
                   features: {
@@ -172,7 +178,9 @@
                   <div id="github_badge"></div> 
               </div>
               <div id="papers" class="page">
-                Published work:
+                <p>
+                <b>Published work</b>
+                </p>
                 <ul>
                   <li>Justin Collins and Rajive Bagrodia. "<a href="http://cs.ucla.edu/collins/~documents/Justin_Collins-Rajive_Bagrodia-MOBIQUITOUS2010.pdf">A Quantitative Comparison of Communication Paradigms for MANETs.</a>" In <i>Proc. of the 7th International ICST Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services</i> (<a href="http://www.mobiquitous.org/2010/">MobiQuitous 2010</a>).
                   </li>
@@ -196,8 +204,9 @@
                 </ul>
               </div>
               <div id="sites" class="page">
-                Some websites I have put together:
-
+                <p>
+                  <b>Some websites I have put together</b>
+                </p>
                 <ul>
                   <li><a href="http://cs.ucla.edu/~collins">My Academic Page</a></li>
                   <li><a href="http://brakemanscanner.org/">Brakeman Scanner</a></li>
@@ -209,8 +218,9 @@
                 </ul>
               </div>
               <div id="social" class="page">
-                Places where you can find me:
-
+                <p>
+                  <b>Places where you can find me</b>
+                </p>
                 <ul>
                   <li><a href="https://twitter.com/presidentbeef">Twitter</a></li>
                   <li><a href="https://github.com/presidentbeef">GitHub</a></li>
