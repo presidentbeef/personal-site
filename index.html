@@ -7,26 +7,38 @@
           Justin S. Collins
         </title>
         <!-- remember to change paths to your sites css files! -->
-        <script src="js/jquery-1.7.1.min.js"></script>
-        <script src="js/jquery.github_badge.js"></script>
+        <script src="newsite/js/jquery-1.7.1.min.js"></script>
+        <script src="newsite/js/jquery.github_badge.js"></script>
                 
-        <link rel="stylesheet" href="style/screen.css" type="text/css" media="screen, projection"
+        <link rel="stylesheet" href="newsite/style/screen.css" type="text/css" media="screen, projection"
         />
         <!--[if lt IE 8]>
             <link rel="stylesheet" href="style/ie.css" type="text/css" media="screen, projection"
             />
         <![endif]-->
-        <link rel="stylesheet" href="style/jquery.github_badge.css?v=1" />
+        <link rel="stylesheet" href="newsite/style/jquery.github_badge.css?v=1" />
         <style>
           body {
             color: #FFF6EE;
-            background-image: url('images/background.png')
+            background: url('newsite/images/background.jpg') top left no-repeat;
+          }
+
+          div#bottom {
+            position: absolute;
+            bottom: -55px;
+            left: 0px;
+            z-index: -1;
+            height: 155px;
+            width: 100%;
+            background: url('newsite/images/background-bottom.jpg') top left no-repeat;
           }
 
           div.pages {
             background-color: #787E7F;
-            border-right: 1px #49597E solid;
             min-height: 500px;
+          }
+
+          div#sortable {
           }
 
           div.page {
@@ -110,7 +122,7 @@
 
             $("#github_badge").GitHubBadge({
               login: "presidentbeef",
-              image_path: "images/gh/",
+              image_path: "newsite/images/gh/",
               repo_count: "10"
             });
           });
@@ -148,7 +160,7 @@
                   rpp: 3,
                   interval: 30000,
                   width: 185,
-                  height: 252,
+                  height: 300,
                   theme: {
                     shell: {
                       background: '#787e7f',
@@ -270,6 +282,21 @@
             <div class="clearDiv">
             </div>
         </div>
-    </body>
+        <div id="bottom">
+          &nbsp;
+        </div>
+      </body>
+      <script type="text/javascript">
 
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-20920647-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+
+      </script>
 </html>
