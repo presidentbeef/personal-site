@@ -32,7 +32,7 @@
 
           div.pages {
             background-color: #787E7F;
-            min-height: 500px;
+            min-height: 600px;
           }
 
           div#sortable {
@@ -156,34 +156,8 @@
             <div class="clearDiv">
             </div>
             <div class="span-5 r2 first sidebar">
-              <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-              <script>
-                new TWTR.Widget({
-                  version: 2,
-                  type: 'profile',
-                  rpp: 3,
-                  interval: 30000,
-                  width: 185,
-                  height: 300,
-                  theme: {
-                    shell: {
-                      background: '#787e7f',
-                      color: '#FFF6EE'
-                    },
-                    tweets: {
-                      background: '#787e7f',
-                      color: '#FFF6EE',
-                      links: '#FFBD80'
-                    }
-                  },
-                  features: {
-                    scrollbar: false,
-                    loop: true,
-                    live: true,
-                    behavior: 'all'
-                  }
-                }).render().setUser('presidentbeef').start();
-              </script>
+              <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/presidentbeef" data-widget-id="699326043820150785">Tweets by @presidentbeef</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
             <div class="r2 span-14 pages">
               <div id="home" class="page">
