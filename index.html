@@ -123,6 +123,11 @@
               repo_count: "10",
               sorting: "descending"
             });
+
+	    $.each(pages, function(i, page) {
+	      if(window.location.hash == page) {
+	        $(page).click();
+	      }});
           });
         </script>
     </head>
