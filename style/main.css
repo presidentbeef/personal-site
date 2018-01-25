@@ -1,0 +1,103 @@
+body {
+  color: #FFF6EE;
+  background: url('/ns/images/tree_background.jpg') center top no-repeat fixed;
+}
+
+img {
+  max-width: 100%
+}
+
+div#bottom {
+  position: absolute;
+  bottom: -55px;
+  left: 0px;
+  z-index: -1;
+  height: 155px;
+  width: 100%;
+}
+
+div.pages {
+  background-color: #787E7F;
+  min-height: 600px;
+}
+
+div#sortable {
+}
+
+div.page {
+  padding: 10px;
+  display: none
+}
+
+div.pages a {
+  color: #FFBD80;
+  text-decoration: none;
+}
+
+div.pages a:hover {
+  color: #FFDEBF;
+  text-decoration: underline;
+}
+
+div.pages ul {
+  margin-left: 10px;
+  list-style: none;
+}
+
+div.pages h2 {
+  color: #FFF6EE;
+}
+
+div.pages h3 {
+  color: #FFBD80;
+  margin-bottom: 3px;
+}
+
+div#navbar {
+  margin-left: 200px;
+  color: #FFF8F1;
+}
+
+div#home {
+  background-color: #787E7F;
+  display: block;
+}
+
+div#github_badge {
+  background-color: white;
+  color: black;
+}
+
+ul#nav {
+  list-style-type: none;
+}
+
+ul#nav li {
+  float: left;
+  margin-left: 10px;
+  padding: 5px 8px 1px 8px;
+  border-right: 1px #49597E solid;
+  background: #787E7F;
+  cursor: pointer;
+}
+
+ul#nav li:hover {
+  margin-top: -7px;
+  height: 25px;
+}
+
+ul#nav a {
+  color: #FFF8F1;
+}
+
+.notit {
+  border-bottom: #929B9C 1px solid;
+}
+
+.it {
+  border-bottom: #787E7F 1px solid;
+}
+
+div#github_badge a:hover {
+  color: blue;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Justin Collins">
+    <meta name="twitter:description" content="The homepage of Justin Collins">
+
+    <meta name=viewport content='width=600'>
+
+    <title>
+      {{ page.title }} - President Beef
+    </title>
+
+    <link rel="stylesheet" href="{{site.baseurl}}/style/screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="{{site.baseurl}}/style/jquery.github_badge.css" />
+    <link rel="stylesheet" href="{{site.baseurl}}/style/main.css" type="text/css" />
+    <script src="{{site.baseurl}}/js/jquery-1.7.1.min.js"></script>
+    <script src="{{site.baseurl}}/js/jquery.github_badge.js"></script>
+    <script src="{{site.baseurl}}/js/turbolinks.js"></script>
+  </head>
+
+  <body>
+    <div id="sortable" class="container">
+      <div class="r1 first last span-24">
+        <p>
+        </p>
+      </div>
+      <div class="clearDiv">
+      </div>
+      <div class="r4 first last span-24">
+        <div id="navbar">
+          <ul id="nav">
+            <a href="{{site.baseurl}}/"><li {% if page.tab == "home" %}class="it" {% else %}class="notit" {% endif %}>Home</li></a>
+            <a href="{{site.baseurl}}/code"><li {% if page.tab == "code" %}class="it" {% else %}class="notit" {% endif %}>Code</li></a>
+            <a href="{{site.baseurl}}/sites"><li {% if page.tab == "sites" %}class="it" {% else %}class="notit" {% endif %}>Sites</li></a>
+            <a href="{{site.baseurl}}/papers"><li {% if page.tab == "papers" %}class="it" {% else %}class="notit" {% endif %}>Papers</li></a>
+            <a href="{{site.baseurl}}/talks"><li {% if page.tab == "talks" %}class="it" {% else %}class="notit" {% endif %}>Talks</li></a>
+            <a href="{{site.baseurl}}/social"><li {% if page.tab == "social" %}class="it" {% else %}class="notit" {% endif %}>Social</li></a>
+            <a href="{{site.baseurl}}/about"><li {% if page.tab == "about" %}class="it" {% else %}class="notit" {% endif %}>About</li></a>
+          </ul>
+        </div>
+      </div>
+      <div class="clearDiv">
+      </div>
+      <div class="span-5 r2 first sidebar">
+       &nbsp; 
+      </div>
+      <div class="r2 span-14 pages">
+        <div id="home" class="page">
+          {{ content }}
+        </div>
+      </div>
+      <div class="r2 last span-5">
+        <p>
+        </p>
+      </div>
+      <div class="clearDiv">
+      </div>
+      <div class="r3 first last span-24 footer">
+        <p>
+        </p>
+      </div>
+      <div class="clearDiv">
+      </div>
+    </div>
+    <div id="bottom">
+      &nbsp;
+    </div>
+  </body>
+  <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-20920647-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+  </script>
+</html>

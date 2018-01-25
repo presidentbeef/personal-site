@@ -1,0 +1,8 @@
+defaults:
+  -
+    scope:
+      path: "" # all files in the project
+    values:
+      layout: "main"
+
+baseurl: "/ns"
