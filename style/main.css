@@ -1,6 +1,7 @@
 body {
-  color: #FFF6EE;
+  color: #FFFEFE;
   background: url('/ns/images/tree_background.jpg') center top no-repeat fixed;
+  font-size: 18px;
 }
 
 img {
@@ -8,7 +9,6 @@ img {
 }
 
 div#bottom {
-  position: absolute;
   bottom: -55px;
   left: 0px;
   z-index: -1;
@@ -25,8 +25,7 @@ div#sortable {
 }
 
 div.page {
-  padding: 10px;
-  display: none
+  padding: 20px;
 }
 
 div.pages a {
@@ -45,11 +44,11 @@ div.pages ul {
 }
 
 div.pages h2 {
-  color: #FFF6EE;
+  color: #FFE5CD;
 }
 
 div.pages h3 {
-  color: #FFBD80;
+  color: #FFEFCD;
   margin-bottom: 3px;
 }
 
@@ -70,6 +69,7 @@ div#github_badge {
 
 ul#nav {
   list-style-type: none;
+  font-size: 15px;
 }
 
 ul#nav li {
@@ -82,8 +82,7 @@ ul#nav li {
 }
 
 ul#nav li:hover {
-  margin-top: -7px;
-  height: 25px;
+  color: #FFBD80;
 }
 
 ul#nav a {
