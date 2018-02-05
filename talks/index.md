@@ -3,14 +3,14 @@ title: Talks
 tab: talks
 ---
 
-## 2018
+## Talks
 
 ### Taking on the King: Killing Injection Vulnerabilities  
 _AppSec California 2018_
 
 How do we dismantle the reign of dangerous and prevalent vulnerabilities? "Injection" has crowned the OWASP Top 10 since 2010, while cross-site scripting (a type of injection) has maintained placement in the top four since 2003. If these two vulnerabilities are well-understood, well-documented, and have "clear" solutions, why have they remained on the OWASP Top 10 for nearly 15 years? Let's take a step back to examine what causes injection (and XSS) vulnerabilities and potential plans for their dethronement.
 
-## 2017
+([Slides](https://docs.google.com/presentation/d/e/2PACX-1vR8pW1qRdO3ZESkvrcS2UdzYh6xe8uSzFKKrWD0W29HCu5HtYCq6EJD17ovmBLL7fryNy_kWSicAVbZ/pub?start=false&loop=false&delayms=3000))
 
 ### Brakeman Lightning Talk  
 _RailsConf 2017_
@@ -29,8 +29,6 @@ You’ve seen the headlines: *"TWITTER HACKED!"* and then it turns out someone h
 But there is good news! Thanks to the growing popularity of bug bounties and public disclosure, it is easy to take a peek into real security vulnerabilities at well-known companies and learn from them. This tour includes stops at Facebook, Twitter, United Airlines, Domino’s, Instagram, and more! This tour covers all relevant technical details, no fluff. Please fasten your seatbelt and keep hands, feet, and head inside the bus at all times.
 
 ([Slides](https://docs.google.com/presentation/d/e/2PACX-1vSO2YPP0uPHL7uJOyOie-g3a0JkRZbGPEm_iqdY6wEfEaTjTmkM7Ym3FI1AaSDM-L5d2FMYEV_rhg5W/pub?start=false&loop=false&delayms=3000))
-
-## 2016
 
 ### Static Analysis for Security and DevOps Happiness
 _AllDay DevOps 2016_
@@ -99,8 +97,6 @@ The good news is building targeted static analysis tools for your own environmen
 
 ([Slides](https://speakerdeck.com/presidentbeef/continuous-security-with-practical-static-analysis))
 
-## 2015
-
 ### Rise of the Machines: Security Automation at Twitter
 _DevOps Enterprise 2015_
 
@@ -126,8 +122,6 @@ Learning to keep your Rails application secure is an often-overlooked part of le
 _WePay Tech Talk January 2015_
 
 ([Slides](https://docs.google.com/presentation/d/e/2PACX-1vS97hr06oQ084GPPP5Br0gJfSxEL1ykYq58F6uwRmPHkghxQKuAOX4nLP0djSiTmmpkfyF_Q51LQjZs/pub?start=false&loop=false&delayms=3000))
-
-## 2014
 
 ### World of Ruby on Rails Security
 _OWASP NoVa/DC September 2014_
@@ -179,8 +173,6 @@ _RailsConf 2014_
 
 [Video](https://youtu.be/dltMEsgPa0c)
 
-## 2013
-
 ### Defending the Bird
 _Yet Another Conference 2013_
 (with Alex Smolen)
@@ -205,8 +197,6 @@ As with many "impossible" problems in computer science, there are benefits to fi
 
 ([Slides](https://docs.google.com/presentation/d/e/2PACX-1vQNycUKgIkC2HeSd1y-Dru66tTDT3ZE-RfRnI5maCjI60GSQhXikFjfSMcxjTPM3L8hoK217pwx9fNv/pub?start=false&loop=false&delayms=3000))
 
-## 2012
-
 ### Keeping Rails Applications on Track with Brakeman
 _RailsConf 2012_
 
@@ -218,7 +208,7 @@ As a static analysis tool, Brakeman can be run without worrying about deploying 
 
 ([Slides](https://speakerdeck.com/presidentbeef/keeping-rails-applications-on-track-with-brakeman) \| [Video](https://youtu.be/p3VMf3oQWKg))
 
-## Put Your Robots to Work: Security Automation at Twitter
+### Put Your Robots to Work: Security Automation at Twitter
 _AppSec USA 2012_
 
 (with Neil Matatall and Alex Smolen)
@@ -226,8 +216,6 @@ _AppSec USA 2012_
 With daily code releases and a growing infrastructure, manually reviewing code changes and protecting against security regressions quickly becomes impractical. Even when using security tools, whether commercial or open source, the difficult work of integrating them into the development and security cycles remains. We need to use an automated approach to push these tools as close to when the code is written as possible, allowing us to prevent potential vulnerabilities before they are shipped. We worked with development, operations, and release teams to create a targeted suite of tools focused on specific security concerns that are effective and don’t introduce any noise. This presentation will give an overview of what we’ve done over the past year, what we have learned along the way, and will provide advice for anyone else going down this road.
 
 ([Video](https://vimeo.com/54250716))
-
-## 2011
 
 ### Brakeman and Jenkins: The Duo Detect Defects in Ruby on Rails Code
 _AppSec USA 2011_
@@ -239,8 +227,6 @@ Even with built-in protections, it is possible, and often witnessed, that securi
 This talk will focus on basics of security features in Rails framework, advantages of using static analysis for discovering security issues, design and development of Brakeman, and how Brakeman and Jenkins are used together at AT&T Interactive to reduce security defects. The only static code analyzer for detecting security defects in Ruby on Rails code, Brakeman is available on GitHub under open source license.
 
 ([Slides](https://speakerdeck.com/presidentbeef/brakeman-and-jenkins-appsec-usa-2012))
-
-## 2010
 
 ### Brakeman
 _LA Ruby Meetup October 2010_
