@@ -56,7 +56,7 @@
         .ghb_badge .ghb_badge_header h1, .ghb_badge .ghb_badge_header h1 a  {
             clear: left;
             color: #52595D;
-            font-size: 16px;
+            font-size: 32px;
             margin-top: 5px;
             text-decoration: none;
         }
@@ -70,7 +70,7 @@
     .ghb_badge .ghb_user_nav{
         background: #FAFAFB;
         border-bottom: 1px solid #E1E1E2;
-        font-size: 11px;
+        font-size: 15px;
         font-weight: bold;
         padding: 10px;
     }
@@ -91,7 +91,7 @@
     /* Info Panel for User Badge */  
     .ghb_badge .ghb_badge_user_info {
         clear: both;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: bold;
         margin: 10px auto;
         padding: 0px 0px 10px 10px;
@@ -107,7 +107,7 @@
             padding: 10px;
         }
         .ghb_badge .ghb_badge_user_info dl {
-            font-size: 12px;
+            font-size: 16px;
             font-weight: bold;            
             margin-top: 10px;
         }
@@ -141,7 +141,7 @@
                     background: url("../images/gh/arrow-40.png") no-repeat scroll 97% 50% transparent; /* Arrow next to Repo */
                     color: #4183C4;
                     display: block;
-                    font-size: 14px;
+                    font-size: 16px;
                     font-weight: bold;
                     padding: 6px 25px 5px 10px;
                     text-decoration: none;
@@ -155,13 +155,13 @@
                 }
                 .ghb_badge .ghb_repo_list li div {
                     display: block;
-                    font-size: 10px;
+                    font-size: 16px;
                     padding: 6px 25px 5px 10px;
                 }
                 
     .ghb_badge .ghb_repo_goto {
         background: #FAFAFB;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bold;
         padding: 10px;
     }
@@ -181,7 +181,7 @@
     .ghb_badge .ghb_repo_nav{
         background: #FAFAFB;
         border-bottom: 1px solid #E1E1E2;
-        font-size: 11px;
+        font-size: 16px;
         font-weight: bold;
         padding: 10px;
     }
@@ -201,7 +201,7 @@
     /* Info Panel for Repo Badge */
     .ghb_badge .ghb_repo_info {
         clear: both;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: normal;
         margin: 10px auto;
         padding: 10px;
@@ -214,7 +214,7 @@
             margin-bottom: 10px;
         }
         .ghb_badge .ghb_repo_info dl {
-            font-size: 12px;
+            font-size: 14px;
             font-weight: bold;            
             margin-top: 10px;
         }
@@ -325,7 +325,7 @@
                     border-bottom: 1px dotted #666666;
                     color: #515151;
                     cursor: help;
-                    font-size: 8px;
+                    font-size: 12px;
                     line-height: 14px;
                     margin:  0 0 5px 5px;
                     white-space: nowrap;
@@ -336,7 +336,7 @@
                     } 
                 .ghb_badge .ghb_issue_list li div {
                     display: none;
-                    font-size: 10px;
+                    font-size: 14px;
                     font-weight: normal;
                     padding: 6px 25px 5px 10px;
                 }
