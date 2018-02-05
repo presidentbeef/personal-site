@@ -236,4 +236,4 @@ Brakeman is a static analysis tool for finding web vulnerabilities in Ruby on Ra
 ### Brakeman
 _AT&T Interactive_
 
-[Video](https://youtu.be/2MzrnBiNgZ4)
+([Video](https://youtu.be/2MzrnBiNgZ4))
