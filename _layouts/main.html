@@ -36,7 +36,7 @@
         <div id="navbar">
           <ul id="nav">
             <a href="{{site.baseurl}}/"><li {% if page.tab == "home" %}class="it" {% else %}class="notit" {% endif %}>Home</li></a>
-            <a href="{{site.baseurl}}/code"><li {% if page.tab == "code" %}class="it" {% else %}class="notit" {% endif %}>Code</li></a>
+            <a href="{{site.baseurl}}/code" data-turbolinks="false"><li {% if page.tab == "code" %}class="it" {% else %}class="notit" {% endif %}>Code</li></a>
             <a href="{{site.baseurl}}/sites"><li {% if page.tab == "sites" %}class="it" {% else %}class="notit" {% endif %}>Sites</li></a>
             <a href="{{site.baseurl}}/papers"><li {% if page.tab == "papers" %}class="it" {% else %}class="notit" {% endif %}>Papers</li></a>
             <a href="{{site.baseurl}}/talks"><li {% if page.tab == "talks" %}class="it" {% else %}class="notit" {% endif %}>Talks</li></a>
