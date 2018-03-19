@@ -10,7 +10,7 @@ _AppSec California 2018_
 
 How do we dismantle the reign of dangerous and prevalent vulnerabilities? "Injection" has crowned the OWASP Top 10 since 2010, while cross-site scripting (a type of injection) has maintained placement in the top four since 2003. If these two vulnerabilities are well-understood, well-documented, and have "clear" solutions, why have they remained on the OWASP Top 10 for nearly 15 years? Let's take a step back to examine what causes injection (and XSS) vulnerabilities and potential plans for their dethronement.
 
-([Slides](https://docs.google.com/presentation/d/e/2PACX-1vR8pW1qRdO3ZESkvrcS2UdzYh6xe8uSzFKKrWD0W29HCu5HtYCq6EJD17ovmBLL7fryNy_kWSicAVbZ/pub?start=false&loop=false&delayms=3000))
+([Slides](https://docs.google.com/presentation/d/e/2PACX-1vR8pW1qRdO3ZESkvrcS2UdzYh6xe8uSzFKKrWD0W29HCu5HtYCq6EJD17ovmBLL7fryNy_kWSicAVbZ/pub?start=false&loop=false&delayms=3000) \| [Video](https://youtu.be/g_24036NDhM))
 
 ### Brakeman Lightning Talk  
 _RailsConf 2017_
