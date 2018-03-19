@@ -81,6 +81,8 @@ _FogCity Ruby September 2016_
 
 The Internet is a dangerous place to deploy applications alone! Take Brakeman with you. Brakeman scans the source code of Rails applications to find potential security vulnerabilities. Learn what Brakeman can do for you and how best to utilize it in your development workflow.
 
+([Slides](https://docs.google.com/presentation/d/e/2PACX-1vTc2tY-E2fHkRUVKq58rG6qa6ZJV24ZFZ4Tw2mWSpkITnOCNTM27n3lF5aD71g5nKA654nPu8UqH1_L/pub?start=false&loop=false&delayms=3000))
+
 ### ...But Doesn’t Rails Take Care of Security for Me?
 _RailsConf 2016_
 
