@@ -5,6 +5,10 @@ tab: talks
 
 ## Talks
 
+### Absolute AppSec Episode #12
+
+([Audio](https://absoluteappsec.com/episodes/Absolute_AppSec_Ep_12.mp3) \| [Video](https://youtu.be/few9AN1zwPE))
+
 ### Taking on the King: Killing Injection Vulnerabilities  
 _AppSec California 2018_
 
