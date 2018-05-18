@@ -5,6 +5,13 @@ tab: talks
 
 ## Talks
 
+### The Evolution of Rails Security  
+_RailsConf 2018_
+
+Rails has a reputation for being secure by default, but how deserved is that reputation? Let's take a look back at some of the low points in Rails security history: from the first Rails CVE, to the controversial GitHub mass assignment, the 2013 Rails apocalypse, and more recent remote code execution issues. Then we'll cheer ourselves up with the many cool security features Rails has added over the years! We'll cover auto-escaping, strong parameters, default security headers, secret storage, and less well-known features like per-form CSRF tokens and upcoming Content Security Policy support.
+
+([Slides](https://docs.google.com/presentation/d/e/2PACX-1vQlIfuxVc8H44UvSD6l_oX97mMutgk9FtyABlymTKGPnBm0fNjdkWvStQYmWHLbYM2bBFC-kw7YwxBN/pub?start=false&loop=false&delayms=3000) \| [Video](https://www.youtube.com/watch?v=Btrmc1wO3pc))
+
 ### Absolute AppSec Episode #12
 
 ([Audio](https://absoluteappsec.com/episodes/Absolute_AppSec_Ep_12.mp3) \| [Video](https://youtu.be/few9AN1zwPE))
