@@ -5,6 +5,13 @@ tab: talks
 
 ## Talks
 
+### Continuous Security for DevOps Velocity  
+_DBS AppSecCon 2018_
+
+The security industry initially reacted to the "DevOps" movement with dismay: developers deploying code themselves? Hundreds of deploys per day? How could security teams possibly keep up with that rate of change? As the DevOps approach has become a mainstream development method, security teams have begun to embrace DevOps and discover the security benefits enabled by the DevOps methodology. Adapting to a DevOps world requires not just the security team to change how they operate, but a realignment of how security permeates the entire organization.
+
+In this talk I share my experiences integrating security with fast-moving development teams, the successes and failures I have seen, as well as guidance on turning DevOps into DevSecOps.
+
 ### The Evolution of Rails Security  
 _RailsConf 2018_
 
