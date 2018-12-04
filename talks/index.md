@@ -14,6 +14,8 @@ Rails has a reputation for being secure by default, but how deserved is that rep
 
 ### Absolute AppSec Episode #12
 
+Catching up with Justin Collins, creator of Brakeman/Pro, during LocoMocoSec 2018 Conference from Kona, HI.
+
 ([Audio](https://absoluteappsec.com/episodes/Absolute_AppSec_Ep_12.mp3) \| [Video](https://youtu.be/few9AN1zwPE))
 
 ### Taking on the King: Killing Injection Vulnerabilities  
@@ -101,6 +103,14 @@ Rails comes with protection against SQL injection, cross site scripting, and cro
 
 ([Slides](https://speakerdeck.com/presidentbeef/dot-dot-dot-but-doesnt-rails-take-care-of-security-for-me) \| [Video](https://youtu.be/3P9naxOfUC4))
 
+
+### Brakeman Lightning Talk  
+_RailsConf 2016_
+
+Three minute introduction to Brakeman.
+
+([Video](https://youtu.be/DHHHnPwSY5I?t=55m6s))
+
 ### Continuous Security with Practical Static Analysis
 _CodeMash 2016_
 
@@ -120,7 +130,9 @@ Security automation at Twitter started with a desire to automate a single static
 ([Slides](https://speakerdeck.com/presidentbeef/security-automation-at-twitter-rise-of-the-machines) \| [Video](https://youtu.be/5aSN97IrFkk) \| [Interview Video](https://youtu.be/-iw029eArsQ))
 
 ### Brakeman and Rails Security
-_RubyRogues 219_
+_Ruby Rogues 219_
+
+Episode 219 of Ruby Rogues -  Brakeman and Rails Security with Justin Collins.
 
 ([Podcast](https://devchat.tv/ruby-rogues/219-rr-brakeman-and-rails-security-with-justin-collins))
 
