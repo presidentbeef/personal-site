@@ -5,6 +5,15 @@ tab: talks
 
 ## Talks
 
+### The Unreasonable Struggle of Commercializing Open Source  
+_RailsConf 2019_
+
+With at least $55 billion in open source-related acquisitions in 2018, you might think we finally figured out how to fund and monetize open source software. Unfortunately, we have only reached an awkward stage of growing pains! With conflicting goals, people are struggling to turn their OSS work into revenue while not losing the powerful open source effects which made the software successful in the first place.
+
+From the perspective of someone who has gone through the pain of commercializing open source, let’s take a deeper look at the unexpected challenges and potential solutions.
+
+([Slides](https://docs.google.com/presentation/d/e/2PACX-1vRrUr9_SQPQnQq-jKt4QLrBQ2t9WBL2XIuKw38kboGYXmMwxK3r2-xTsQsWkIy7b3W-LnhzAwQyJxFo/pub?start=false&loop=false&delayms=3000))
+
 ### Continuous Security for DevOps Velocity  
 _DBS AppSecCon 2018_
 
