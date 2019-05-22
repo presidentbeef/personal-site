@@ -5,6 +5,15 @@ tab: talks
 
 ## Talks
 
+### Continuous Security for DevOps Velocity  
+_ISSA LA Summit 2019_ and _DBS AppSecCon 2018_
+
+The security industry initially reacted to the "DevOps" movement with dismay: developers deploying code themselves? Hundreds of deploys per day? How could security teams possibly keep up with that rate of change? As the DevOps approach has become a mainstream development method, security teams have begun to embrace DevOps and discover the security benefits enabled by the DevOps methodology. Adapting to a DevOps world requires not just the security team to change how they operate, but a realignment of how security permeates the entire organization.
+
+In this talk I share my experiences integrating security with fast-moving development teams, the successes and failures I have seen, as well as guidance on turning DevOps into DevSecOps.
+
+([Slides](/papers/Justin_Collins_ISSALA_Summit_2019.pdf))
+
 ### The Unreasonable Struggle of Commercializing Open Source  
 _RailsConf 2019_
 
@@ -13,13 +22,6 @@ With at least $55 billion in open source-related acquisitions in 2018, you might
 From the perspective of someone who has gone through the pain of commercializing open source, let’s take a deeper look at the unexpected challenges and potential solutions.
 
 ([Slides](https://docs.google.com/presentation/d/e/2PACX-1vRrUr9_SQPQnQq-jKt4QLrBQ2t9WBL2XIuKw38kboGYXmMwxK3r2-xTsQsWkIy7b3W-LnhzAwQyJxFo/pub?start=false&loop=false&delayms=3000))
-
-### Continuous Security for DevOps Velocity  
-_DBS AppSecCon 2018_
-
-The security industry initially reacted to the "DevOps" movement with dismay: developers deploying code themselves? Hundreds of deploys per day? How could security teams possibly keep up with that rate of change? As the DevOps approach has become a mainstream development method, security teams have begun to embrace DevOps and discover the security benefits enabled by the DevOps methodology. Adapting to a DevOps world requires not just the security team to change how they operate, but a realignment of how security permeates the entire organization.
-
-In this talk I share my experiences integrating security with fast-moving development teams, the successes and failures I have seen, as well as guidance on turning DevOps into DevSecOps.
 
 ### The Evolution of Rails Security  
 _RailsConf 2018_
