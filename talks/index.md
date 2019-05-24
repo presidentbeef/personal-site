@@ -21,7 +21,7 @@ With at least $55 billion in open source-related acquisitions in 2018, you might
 
 From the perspective of someone who has gone through the pain of commercializing open source, let’s take a deeper look at the unexpected challenges and potential solutions.
 
-([Slides](https://docs.google.com/presentation/d/e/2PACX-1vRrUr9_SQPQnQq-jKt4QLrBQ2t9WBL2XIuKw38kboGYXmMwxK3r2-xTsQsWkIy7b3W-LnhzAwQyJxFo/pub?start=false&loop=false&delayms=3000))
+([Slides](https://docs.google.com/presentation/d/e/2PACX-1vRrUr9_SQPQnQq-jKt4QLrBQ2t9WBL2XIuKw38kboGYXmMwxK3r2-xTsQsWkIy7b3W-LnhzAwQyJxFo/pub?start=false&loop=false&delayms=3000) \| [Video](https://www.youtube.com/watch?v=mCrOi9QQCwU))
 
 ### The Evolution of Rails Security  
 _RailsConf 2018_
