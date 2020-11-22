@@ -6,11 +6,14 @@ tab: talks
 ## Talks
 
 ### The End of the AppSec Team  
-_LASCON X 2019_, _OWASP Bay Area November 2019_
+_LocoMocoSec 2020_, _LASCON X 2019_, _OWASP Bay Area November 2019_
 
 Is your application security team large enough? After growing beyond a few people, security teams often find themselves desperately trying to hire more AppSec folks. While this is good for those of us in the industry, is it even mathematically possible to hire enough AppSec folks to handle the amount of code, features, platforms, and products the rest of your organization is churning out? Even with all the tools one can buy, it is unlikely the AppSec Team can ever match the pace of the rest of the engineering team. If the AppSec team can never be big enough, what can we do? Well, let’s hop into our time machines, skip past the current AppSec grind, and take a look into the future at the end of the AppSec team.
 
-([Slides](https://docs.google.com/presentation/d/e/2PACX-1vQSTeH8_31rjRx-FSXYLMemMKZvLxTWOWUP4HsaBuUyccSrPRGQoewl12PXkmugXxph9lkKmQGY7_H8/pub?start=false&loop=false&delayms=3000) \| [Video](https://youtu.be/7CIW1P2fnGw))
+
+([Slides](https://docs.google.com/presentation/d/e/2PACX-1vSznC8PdTd9K0SkOuVN5f5ZiOHrVmvePAIfK65ueUHVS4dONVfZ9naSqoypUVVuOCN8xNoEmywVZufl/pub?start=false&loop=false&delayms=3000) \| [Video](https://slideslive.com/38940002/the-end-of-the-appsec-team))
+
+([LASCON Slides](https://docs.google.com/presentation/d/e/2PACX-1vQSTeH8_31rjRx-FSXYLMemMKZvLxTWOWUP4HsaBuUyccSrPRGQoewl12PXkmugXxph9lkKmQGY7_H8/pub?start=false&loop=false&delayms=3000) \| [LASCON Video](https://youtu.be/7CIW1P2fnGw))
 
 ### Continuous Security for DevOps Velocity  
 _ISSA LA Summit 2019_ and _DBS AppSecCon 2018_
