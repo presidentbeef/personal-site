@@ -5,6 +5,15 @@ tab: talks
 
 ## Talks
 
+### Splashing Around with mruby/c on the Flipper Zero  
+_mruby Kaigi 2022_
+
+The Flipper Zero is marketed as a portable hacking tool for geeks. Its built-in capabilities include infrared, NFC, sub-1GHz wireless, Bluetooth, RFID, and more. But after cloning a couple remote controls and reading anything with RFC in my house, I was gripped by a desire to run Ruby on this device. The Flipper's application CPU is an ARM Cortex-M4 32-bit 64 MHz processor and the device only has 256KB of SRAM. In that constrained environment, even mruby is too large. Thankfully, the even tinier mruby/c implementation works!
+
+This talk presents the joy of adding mruby/c to unfamiliar firmware on an unusual device - for no particular reason except the experience of seeing Ruby run!
+
+([Slides](https://docs.google.com/presentation/d/e/2PACX-1vRfzAaMPFgp499P71lGC65xj7J_zygGXfI0_606HnsngKoJoHzUNsq_8bdGjisu5fZLY1CKx0LgfJCW/pub?start=false&loop=false&delayms=3000) \| [Video](https://www.youtube.com/watch?v=T2pi2P0HsdQ) (Japanese subtitles))
+
 ### The End of the AppSec Team  
 _LocoMocoSec 2020_, _LASCON X 2019_, _OWASP Bay Area November 2019_
 
