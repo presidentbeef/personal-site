@@ -5,4 +5,4 @@ defaults:
     values:
       layout: "main"
 
-baseurl: "/ns"
+baseurl: "https://presidentbeef.com"
